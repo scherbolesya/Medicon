@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home"
+        android:title="home"
+        android:icon="@drawable/home_icon"/>
+
+    <item
+        android:id="@+id/share"
+        android:title="share"
+        android:icon="@drawable/share_icon"
+        />
+
+    <item
+        android:icon="@drawable/contacts_icon"
+        android:title="contact"
+        android:id="@+id/contact"/>
+
+    <item
+        android:id="@+id/menu"
+        android:title="menu"
+        android:icon="@drawable/menu_icon"
+        />
+
+</menu>
