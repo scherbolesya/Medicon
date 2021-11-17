@@ -6,4 +6,10 @@
     tools:context=".MenuFragment">
 
 
+    <TextView
+        android:gravity="center"
+        android:text="made by Olesya Shcherbakova"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </FrameLayout>

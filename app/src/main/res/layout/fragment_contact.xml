@@ -6,8 +6,8 @@
     tools:context=".HomeFragment">
 
    <TextView
-       android:textSize="17dp"
-       android:text="Телефон: +7 (8482) 26-05-00"
+       android:gravity="center"
+       android:text="scherbolesya@gmail.com"
        android:layout_gravity="center"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"/>

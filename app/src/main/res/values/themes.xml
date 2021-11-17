@@ -12,11 +12,12 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        
+
         <item name="android:textViewStyle">@style/Theme.Medicon.TextView</item>
     </style>
 
     <style name="Theme.Medicon.TextView" parent="Widget.MaterialComponents.TextView">
         <item name="android:textSize">20sp</item>
-</style>
+    </style>
+
 </resources>
