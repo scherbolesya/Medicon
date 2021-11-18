@@ -29,12 +29,27 @@ class HomeFragment : Fragment() {
             "Эндокринология"
         )
 
-        val servicesRecyclerView: RecyclerView = view.findViewById(R.id.services_recycler_view)
-        servicesRecyclerView.layoutManager= LinearLayoutManager(container!!.context, LinearLayoutManager.VERTICAL, false)
+        val bannerList: List<Banner> = listOf(
+            Banner(R.drawable.ban_covid, "ул.Баныкина, 32А, 2 этаж, офис 21"),
+            Banner(R.drawable.ban_teeth, "+7 (8482) 26-05-00"),
+            Banner(R.drawable.ban_ban, "ул.Баныкина, 32А, 2 этаж, офис 21"),
+            Banner(R.drawable.ban_covid, "+7 (8482) 26-05-00"),
+            Banner(R.drawable.ban_teeth, "ул.Баныкина, 32А, 2 этаж, офис 21"),
+            Banner(R.drawable.ban_ban, "+7 (8482) 26-33-00")
+        )
 
+        val servicesRecyclerView: RecyclerView = view.findViewById(R.id.services_recycler_view)
+        val bannerRecyclerView: RecyclerView = view.findViewById(R.id.banner_recycler_view)
+        servicesRecyclerView.layoutManager= LinearLayoutManager(container!!.context, LinearLayoutManager.VERTICAL, false)
         servicesRecyclerView.adapter = ServicesAdapter(servicesList)
+
+        bannerRecyclerView.layoutManager = LinearLayoutManager(container!!.context, LinearLayoutManager.HORIZONTAL,false)
+        bannerRecyclerView.adapter = BannerAdapter(bannerList)
 
         return view
     }
 
 }
+
+//Adapter  = View on RecyclerView
+//ViewHolder  = data on View

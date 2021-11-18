@@ -4,24 +4,22 @@
 
     <item
         android:id="@+id/home"
-        android:title="home"
-        android:icon="@drawable/home_icon"/>
+        android:icon="@drawable/home_icon"
+        android:title="home" />
 
     <item
         android:id="@+id/share"
-        android:title="share"
         android:icon="@drawable/share_icon"
-        />
+        android:title="share" />
 
     <item
+        android:id="@+id/contact"
         android:icon="@drawable/contacts_icon"
-        android:title="contact"
-        android:id="@+id/contact"/>
+        android:title="contact" />
 
     <item
         android:id="@+id/menu"
-        android:title="about"
         android:icon="@drawable/menu_icon"
-        />
+        android:title="about" />
 
 </menu>

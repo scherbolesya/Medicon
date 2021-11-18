@@ -7,7 +7,7 @@
 
    <TextView
        android:gravity="center"
-       android:text="scherbolesya@gmail.com"
+       android:text="телефон 89882431200"
        android:layout_gravity="center"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"/>
